@@ -54,8 +54,9 @@ header {
 }
 
 .photo {
-  background: url('../images/AlexNatural2.jpg') center 50%;
-  background-size: cover;
+  background: url('../images/AlexNatural2.jpg') center 30%;
+  background-repeat: no-repeat;
+  background-size: contain;
   min-height: 300px;
   width: 50%;
 }
@@ -137,6 +138,16 @@ header {
   display: flex;
   height: 100%;
   width: 50%;
+}
+
+.picture {
+  background-image: url('../images/AzurWane.png');
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: 960px	540px;
+  width: 960px;
+  height: 540px;
+ 
 }
 
 .screenshot img {
