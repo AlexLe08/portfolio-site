@@ -147,7 +147,24 @@ header {
   background-size: 960px	540px;
   width: 960px;
   height: 540px;
- 
+}
+
+.picture2 {
+  background-image: url('../images/Graffiti_Law.png');
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: 960px	540px;
+  width: 960px;
+  height: 540px;
+}
+
+.picture3 {
+  background-image: url('../images/Screenshot\ 2016-12-22\ 15.30.42.png');
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: 500px	500px;
+  width: 500px;
+  height: 500px;
 }
 
 .screenshot img {
