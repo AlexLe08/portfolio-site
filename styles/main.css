@@ -13,7 +13,9 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 15px 10px;
+  padding: 15px 10px;
+  background-color: dimgray;
+  color: white;
 }
 
 .content {
@@ -37,7 +39,7 @@ header {
 }
 
 .link a {
-  color: black;
+  color: white;
   font-weight: 500;
   text-decoration: none;
 }
@@ -106,6 +108,10 @@ header {
   justify-content: center;
   text-align: center;
   width: 50%;
+  border-radius: 40px;
+  border-style: solid;
+  border-color: cornflowerblue;
+  border-width: 8px;
 }
 
 .explanation p {
@@ -141,7 +147,7 @@ header {
 }
 
 .picture {
-  background-image: url('../images/AzurWane.png');
+  background-image: url('../images/Slack_WSU-0096.jpg');
   background-color: black;
   background-repeat: no-repeat;
   background-size: 960px	540px;
@@ -150,7 +156,7 @@ header {
 }
 
 .picture2 {
-  background-image: url('../images/Graffiti_Law.png');
+  background-image: url('../images/EscapeRoomStart.jpg');
   background-color: black;
   background-repeat: no-repeat;
   background-size: 960px	540px;
@@ -171,7 +177,6 @@ header {
   margin: 15px auto;
 }
 
-.stattleship {
-  height: 40%;
-  width: 40%;
+.deedWork {
+  justify-content: center;
 }
